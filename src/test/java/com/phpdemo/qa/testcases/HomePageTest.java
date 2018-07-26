@@ -27,7 +27,7 @@ public class HomePageTest extends TestBase {
 		HomePage = loginp.Loginfunction(prop.getProperty("userName"), prop.getProperty("password"));
 		Thread.sleep(2000);
 	}
-	
+	//test priority 
 	@Test(priority=3)
 	public void validateTitlepageTest() {
 		String pgeTitle = HomePage.getHomePageTitle();
