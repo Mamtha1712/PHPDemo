@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]" parallel="methods">
+  <listeners>
+    <listener class-name="com.phpdemo.qa.ExtentReportListener.ExtentReportNG"/>
+  </listeners>
+  <test thread-count="2" name="DemoSitePHPTest(failed)" parallel="methods">
+    <classes>
+      <class name="com.phpdemo.qa.testcases.HomePageTest">
+        <methods>
+          <include name="validateProfileBtnTest"/>
+          <include name="teardown"/>
+          <include name="Setup"/>
+          <include name="getAllAcctsSubMenusTest"/>
+          <include name="validateTitlepageTest"/>
+        </methods>
+      </class> <!-- com.phpdemo.qa.testcases.HomePageTest -->
+      <class name="com.phpdemo.qa.testcases.AddAdminTest">
+        <methods>
+          <include name="validateAddAdminPageTitleTest"/>
+          <include name="setup"/>
+          <include name="createAddAdminTest"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.phpdemo.qa.testcases.AddAdminTest -->
+      <class name="com.phpdemo.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="LoginPagePanelTest"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.phpdemo.qa.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- DemoSitePHPTest(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

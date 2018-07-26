@@ -1,0 +1,4 @@
+com\phpdemo\qa\testcases\AccountsPageTest.class
+com\phpdemo\qa\testcases\AddAdminTest.class
+com\phpdemo\qa\testcases\HomePageTest.class
+com\phpdemo\qa\testcases\LoginPageTest.class

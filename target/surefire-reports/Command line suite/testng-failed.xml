@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.phpdemo.qa.testcases.HomePageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.phpdemo.qa.testcases.HomePageTest -->
+      <class name="com.phpdemo.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="LoginPagePanelTest"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.phpdemo.qa.testcases.LoginPageTest -->
+      <class name="com.phpdemo.qa.testcases.AddAdminTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.phpdemo.qa.testcases.AddAdminTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

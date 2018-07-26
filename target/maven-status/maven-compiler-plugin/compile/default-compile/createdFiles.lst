@@ -1,0 +1,9 @@
+com\phpdemo\qa\ExtentReportListener\ExtentReportNG.class
+com\phpdemo\qa\pages\HomePage.class
+com\phpdemo\qa\pages\AccountsPage.class
+com\phpdemo\qa\pages\AddAdminPage.class
+com\phpdemo\qa\util\TestUtilities.class
+com\phpdemo\qa\util\WebEventListener.class
+com\phpdemo\qa\base\TestBase.class
+com\phpdemo\qa\pages\AdminsPage.class
+com\phpdemo\qa\pages\LoginPage.class
