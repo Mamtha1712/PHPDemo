@@ -1,42 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="62100" started-at="2018-07-25T13:26:17Z" finished-at="2018-07-25T13:27:19Z">
+  <suite name="Default suite" duration-ms="23849" started-at="2018-07-30T15:27:33Z" finished-at="2018-07-30T15:27:57Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="62100" started-at="2018-07-25T13:26:17Z" finished-at="2018-07-25T13:27:19Z">
-      <class name="com.phpdemo.qa.testcases.LoginPageTest">
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.phpdemo.qa.testcases.LoginPageTest@73ad2d6]" name="Setup" is-config="true" duration-ms="23300" started-at="2018-07-25T13:26:17Z" finished-at="2018-07-25T13:26:40Z">
+    <test name="Default test" duration-ms="23849" started-at="2018-07-30T15:27:33Z" finished-at="2018-07-30T15:27:57Z">
+      <class name="com.phpdemo.qa.testcases.QuickBookingPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.phpdemo.qa.testcases.QuickBookingPageTest@1ce92674]" name="setUp" is-config="true" duration-ms="12571" started-at="2018-07-30T15:27:33Z" finished-at="2018-07-30T15:27:46Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="RememberMeChkTest()[pri:1, instance:com.phpdemo.qa.testcases.LoginPageTest@73ad2d6]" name="RememberMeChkTest" duration-ms="193" started-at="2018-07-25T13:26:40Z" finished-at="2018-07-25T13:26:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- RememberMeChkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.phpdemo.qa.testcases.LoginPageTest@73ad2d6]" name="tearDown" is-config="true" duration-ms="2240" started-at="2018-07-25T13:26:40Z" finished-at="2018-07-25T13:26:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.phpdemo.qa.testcases.LoginPageTest@73ad2d6]" name="Setup" is-config="true" duration-ms="9882" started-at="2018-07-25T13:26:43Z" finished-at="2018-07-25T13:26:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method status="FAIL" signature="LoginPagePanelTest()[pri:2, instance:com.phpdemo.qa.testcases.LoginPageTest@73ad2d6]" name="LoginPagePanelTest" duration-ms="90" started-at="2018-07-25T13:26:53Z" finished-at="2018-07-25T13:26:53Z">
-          <exception class="java.lang.AssertionError">
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="setCheckinDateTest()[pri:0, instance:com.phpdemo.qa.testcases.QuickBookingPageTest@1ce92674]" name="setCheckinDateTest" duration-ms="11229" started-at="2018-07-30T15:27:46Z" finished-at="2018-07-30T15:27:57Z">
+          <exception class="org.openqa.selenium.JavascriptException">
             <message>
-              <![CDATA[expected [LOGIN PANEL] but found []]]>
+              <![CDATA[ReferenceError: argument is not defined
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'SW0198', ip: '192.168.1.231', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8644, moz:profile: C:\Users\jjagadeesha\AppDat..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 5095910e-febb-4124-9741-cd93bf9e3149]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [LOGIN PANEL] but found []
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:453)
-at org.testng.Assert.assertEquals(Assert.java:463)
-at com.phpdemo.qa.testcases.LoginPageTest.LoginPagePanelTest(LoginPageTest.java:35)
+              <![CDATA[org.openqa.selenium.JavascriptException: ReferenceError: argument is not defined
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'SW0198', ip: '192.168.1.231', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8644, moz:profile: C:\Users\jjagadeesha\AppDat..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 5095910e-febb-4124-9741-cd93bf9e3149
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:485)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+at com.sun.proxy.$Proxy7.executeScript(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.executeScript(EventFiringWebDriver.java:229)
+at com.phpdemo.qa.pages.QuickBookingsPage.setYearValue(QuickBookingsPage.java:49)
+at com.phpdemo.qa.pages.QuickBookingsPage.SetCheckInDate(QuickBookingsPage.java:78)
+at com.phpdemo.qa.testcases.QuickBookingPageTest.setCheckinDateTest(QuickBookingPageTest.java:40)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -64,39 +76,15 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.JavascriptException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginPagePanelTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.phpdemo.qa.testcases.LoginPageTest@73ad2d6]" name="tearDown" is-config="true" duration-ms="1757" started-at="2018-07-25T13:26:53Z" finished-at="2018-07-25T13:26:54Z">
+        </test-method> <!-- setCheckinDateTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.phpdemo.qa.testcases.QuickBookingPageTest@1ce92674]" name="teardown" is-config="true" duration-ms="1" started-at="2018-07-30T15:27:57Z" finished-at="2018-07-30T15:27:57Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.phpdemo.qa.testcases.LoginPageTest@73ad2d6]" name="Setup" is-config="true" duration-ms="9653" started-at="2018-07-25T13:26:54Z" finished-at="2018-07-25T13:27:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="LoginTest()[pri:3, instance:com.phpdemo.qa.testcases.LoginPageTest@73ad2d6]" name="LoginTest" duration-ms="643" started-at="2018-07-25T13:27:04Z" finished-at="2018-07-25T13:27:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.phpdemo.qa.testcases.LoginPageTest@73ad2d6]" name="tearDown" is-config="true" duration-ms="2152" started-at="2018-07-25T13:27:05Z" finished-at="2018-07-25T13:27:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.phpdemo.qa.testcases.LoginPageTest@73ad2d6]" name="Setup" is-config="true" duration-ms="10356" started-at="2018-07-25T13:27:07Z" finished-at="2018-07-25T13:27:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="LoginPageFrgtPwdTest()[pri:4, instance:com.phpdemo.qa.testcases.LoginPageTest@73ad2d6]" name="LoginPageFrgtPwdTest" duration-ms="67" started-at="2018-07-25T13:27:17Z" finished-at="2018-07-25T13:27:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginPageFrgtPwdTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.phpdemo.qa.testcases.LoginPageTest@73ad2d6]" name="tearDown" is-config="true" duration-ms="1694" started-at="2018-07-25T13:27:17Z" finished-at="2018-07-25T13:27:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.phpdemo.qa.testcases.LoginPageTest -->
+        </test-method> <!-- teardown -->
+      </class> <!-- com.phpdemo.qa.testcases.QuickBookingPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

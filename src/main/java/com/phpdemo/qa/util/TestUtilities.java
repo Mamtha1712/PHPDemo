@@ -72,6 +72,36 @@ public class TestUtilities extends TestBase{
 			e.printStackTrace();
 		}
 	}
+	
+	public static String monthinterpret(String monthval) {
+		String month = null;
+		if (monthval.equalsIgnoreCase("01")) {
+			month = "January";
+		}else if (monthval.equalsIgnoreCase("02")) {
+			month = "February";
+		}else if (monthval.equalsIgnoreCase("03")) {
+			month = "March";
+		}else if (monthval.equalsIgnoreCase("04")) {
+			month = "April";
+		}else if (monthval.equalsIgnoreCase("05")) {
+			month = "May";
+		}else if (monthval.equalsIgnoreCase("06")) {
+			month = "June";
+		}else if (monthval.equalsIgnoreCase("07")) {
+			month = "July";
+		}else if (monthval.equalsIgnoreCase("08")) {
+			month = "August";
+		}else if (monthval.equalsIgnoreCase("09")) {
+			month = "September";
+		}else if (monthval.equalsIgnoreCase("10")) {
+			month = "October";
+		}else if (monthval.equalsIgnoreCase("11")) {
+			month = "November";
+		}else if (monthval.equalsIgnoreCase("12")) {
+			month = "December";
+		}
+		return month;
+	}
 		
 		
 }

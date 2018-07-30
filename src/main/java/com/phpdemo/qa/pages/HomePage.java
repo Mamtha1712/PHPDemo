@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import com.phpdemo.qa.base.TestBase;
+import com.phpdemo.qa.util.TestUtilities;
 
 public class HomePage extends TestBase {
 	//Page factory or object repository
@@ -29,6 +30,22 @@ public class HomePage extends TestBase {
 	
 	@FindBy(xpath = "//ul[@id='ACCOUNTS']//child::li[1]")
 	WebElement adminOptn;
+	
+	@FindBy(xpath="//button[@class='btn btn-danger btn-block']")
+	WebElement quickBooking;
+	
+	@FindBy (xpath="//div[@class='modal-dialog']//div[@class='modal-content']/form/div[2]/div[1]/div//select[@name='applytax']")
+	WebElement applyTax;
+	
+	@FindBy (xpath="//div[@class='modal-dialog']//div[@class='modal-content']/form/div[2]/div[2]/div//select[@id='servicetype']")
+	WebElement serviceType;
+	
+	@FindBy(xpath="//div[@class='modal-content']/form/div[3]//button[contains(text(),'Close')]")
+	WebElement closeBtn;
+	
+	@FindBy(xpath="//div[@class='modal-content']/form/div[3]//button[contains(text(),'Next')]")
+	WebElement nextBtn;
+	
 	
 	//initiate the driver and find by
 	public HomePage() {
@@ -73,4 +90,19 @@ public class HomePage extends TestBase {
 		adminOptn.click();
 		return new AdminsPage();
 	}
+	
+	public String clickOnQuickBookNvalidateHeader() {
+		quickBooking.click();
+		String modalHeader = driver.findElement(By.xpath("//div[@class='modal-dialog']//div[@class='modal-content']/form/div/h4[contains(text(),'Quick Booking')]")).getText();
+		return modalHeader;
+	}
+	
+	public QuickBookingsPage enterQuickBookingDetails(String applyTaxoption, String serviceTypeOption) throws Exception {
+		TestUtilities.selectOptionfromList(applyTax, applyTaxoption);
+		Thread.sleep(3000);
+		TestUtilities.selectOptionfromList(serviceType, serviceTypeOption);
+		nextBtn.click();
+		return new QuickBookingsPage();
+	}
+	
 }

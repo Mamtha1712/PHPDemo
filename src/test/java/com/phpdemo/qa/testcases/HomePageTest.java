@@ -11,6 +11,7 @@ import org.testng.annotations.Test;
 import com.phpdemo.qa.base.TestBase;
 import com.phpdemo.qa.pages.HomePage;
 import com.phpdemo.qa.pages.LoginPage;
+import com.phpdemo.qa.pages.QuickBookingsPage;
 
 public class HomePageTest extends TestBase {
 	LoginPage loginp;
@@ -28,20 +29,20 @@ public class HomePageTest extends TestBase {
 		Thread.sleep(2000);
 	}
 	//test priority 
-	@Test(priority=3)
+	@Test(priority=3, enabled=false)
 	public void validateTitlepageTest() {
 		String pgeTitle = HomePage.getHomePageTitle();
 		Assert.assertEquals(pgeTitle, "Dashboard");
 		HomePage.LogoutBtnClick();
 	}
 	
-	@Test(priority=2)
+	@Test(priority=2, enabled=false)
 	public void validateProfileBtnTest() {
 		String BtnText = HomePage.validateProfileBtnPresent();
 		Assert.assertEquals(BtnText, "PROFILE");
 	}
 	
-	@Test(priority=1)
+	@Test(priority=1, enabled=false)
 	public void getAllAcctsSubMenusTest() {
 		HomePage.clickOnAccountsMenu();
 		List <WebElement> optns1 = HomePage.getAllSubMenuOptns();
@@ -61,6 +62,12 @@ public class HomePageTest extends TestBase {
 				}
 		}
 		
+	}
+	
+	@Test
+	public void clickQuickBookingsNenterDetailsTest() throws Exception {
+		HomePage.clickOnQuickBookNvalidateHeader();
+		QuickBookingsPage qBK = HomePage.enterQuickBookingDetails("Yes", "Flights");
 	}
 	
 	@AfterMethod

@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 229.162 sec <<< FAILURE!
-LoginPagePanelTest(com.phpdemo.qa.testcases.LoginPageTest)  Time elapsed: 0.071 sec  <<< FAILURE!
+Tests run: 9, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 219.353 sec <<< FAILURE!
+LoginPagePanelTest(com.phpdemo.qa.testcases.LoginPageTest)  Time elapsed: 0.218 sec  <<< FAILURE!
 java.lang.AssertionError: expected [LOGIN PANEL] but found []
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:513)

@@ -2,66 +2,66 @@
 <testng-results skipped="0" failed="1" ignored="0" total="9" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="228180" started-at="2018-07-25T17:03:03Z" finished-at="2018-07-25T17:06:51Z">
+  <suite name="Command line suite" duration-ms="218222" started-at="2018-07-26T14:24:10Z" finished-at="2018-07-26T14:27:48Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="228180" started-at="2018-07-25T17:03:03Z" finished-at="2018-07-25T17:06:51Z">
+    <test name="Command line test" duration-ms="218222" started-at="2018-07-26T14:24:10Z" finished-at="2018-07-26T14:27:48Z">
       <class name="com.phpdemo.qa.testcases.HomePageTest">
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.phpdemo.qa.testcases.HomePageTest@783e6358]" name="Setup" is-config="true" duration-ms="14017" started-at="2018-07-25T18:05:14Z" finished-at="2018-07-25T18:05:28Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.phpdemo.qa.testcases.HomePageTest@783e6358]" name="Setup" is-config="true" duration-ms="14270" started-at="2018-07-26T15:26:03Z" finished-at="2018-07-26T15:26:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="getAllAcctsSubMenusTest()[pri:1, instance:com.phpdemo.qa.testcases.HomePageTest@783e6358]" name="getAllAcctsSubMenusTest" duration-ms="1075" started-at="2018-07-25T18:05:28Z" finished-at="2018-07-25T18:05:29Z">
+        <test-method status="PASS" signature="getAllAcctsSubMenusTest()[pri:1, instance:com.phpdemo.qa.testcases.HomePageTest@783e6358]" name="getAllAcctsSubMenusTest" duration-ms="1321" started-at="2018-07-26T15:26:17Z" finished-at="2018-07-26T15:26:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAllAcctsSubMenusTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.phpdemo.qa.testcases.HomePageTest@783e6358]" name="teardown" is-config="true" duration-ms="1994" started-at="2018-07-25T18:05:29Z" finished-at="2018-07-25T18:05:31Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.phpdemo.qa.testcases.HomePageTest@783e6358]" name="teardown" is-config="true" duration-ms="2820" started-at="2018-07-26T15:26:19Z" finished-at="2018-07-26T15:26:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.phpdemo.qa.testcases.HomePageTest@783e6358]" name="Setup" is-config="true" duration-ms="12174" started-at="2018-07-25T18:05:43Z" finished-at="2018-07-25T18:05:56Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.phpdemo.qa.testcases.HomePageTest@783e6358]" name="Setup" is-config="true" duration-ms="12857" started-at="2018-07-26T15:26:36Z" finished-at="2018-07-26T15:26:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="validateProfileBtnTest()[pri:2, instance:com.phpdemo.qa.testcases.HomePageTest@783e6358]" name="validateProfileBtnTest" duration-ms="505" started-at="2018-07-25T18:05:56Z" finished-at="2018-07-25T18:05:56Z">
+        <test-method status="PASS" signature="validateProfileBtnTest()[pri:2, instance:com.phpdemo.qa.testcases.HomePageTest@783e6358]" name="validateProfileBtnTest" duration-ms="156" started-at="2018-07-26T15:26:48Z" finished-at="2018-07-26T15:26:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateProfileBtnTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.phpdemo.qa.testcases.HomePageTest@783e6358]" name="teardown" is-config="true" duration-ms="2184" started-at="2018-07-25T18:05:56Z" finished-at="2018-07-25T18:05:58Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.phpdemo.qa.testcases.HomePageTest@783e6358]" name="teardown" is-config="true" duration-ms="2271" started-at="2018-07-26T15:26:49Z" finished-at="2018-07-26T15:26:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.phpdemo.qa.testcases.HomePageTest@783e6358]" name="Setup" is-config="true" duration-ms="12223" started-at="2018-07-25T18:06:10Z" finished-at="2018-07-25T18:06:22Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.phpdemo.qa.testcases.HomePageTest@783e6358]" name="Setup" is-config="true" duration-ms="12925" started-at="2018-07-26T15:27:04Z" finished-at="2018-07-26T15:27:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="validateTitlepageTest()[pri:3, instance:com.phpdemo.qa.testcases.HomePageTest@783e6358]" name="validateTitlepageTest" duration-ms="1531" started-at="2018-07-25T18:06:22Z" finished-at="2018-07-25T18:06:24Z">
+        <test-method status="PASS" signature="validateTitlepageTest()[pri:3, instance:com.phpdemo.qa.testcases.HomePageTest@783e6358]" name="validateTitlepageTest" duration-ms="2098" started-at="2018-07-26T15:27:17Z" finished-at="2018-07-26T15:27:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateTitlepageTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.phpdemo.qa.testcases.HomePageTest@783e6358]" name="teardown" is-config="true" duration-ms="1959" started-at="2018-07-25T18:06:24Z" finished-at="2018-07-25T18:06:26Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.phpdemo.qa.testcases.HomePageTest@783e6358]" name="teardown" is-config="true" duration-ms="2018" started-at="2018-07-26T15:27:19Z" finished-at="2018-07-26T15:27:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.phpdemo.qa.testcases.HomePageTest -->
       <class name="com.phpdemo.qa.testcases.LoginPageTest">
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.phpdemo.qa.testcases.LoginPageTest@17550481]" name="Setup" is-config="true" duration-ms="10328" started-at="2018-07-25T18:05:31Z" finished-at="2018-07-25T18:05:41Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.phpdemo.qa.testcases.LoginPageTest@17550481]" name="Setup" is-config="true" duration-ms="11901" started-at="2018-07-26T15:26:22Z" finished-at="2018-07-26T15:26:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="RememberMeChkTest()[pri:1, instance:com.phpdemo.qa.testcases.LoginPageTest@17550481]" name="RememberMeChkTest" duration-ms="48" started-at="2018-07-25T18:05:41Z" finished-at="2018-07-25T18:05:41Z">
+        <test-method status="PASS" signature="RememberMeChkTest()[pri:1, instance:com.phpdemo.qa.testcases.LoginPageTest@17550481]" name="RememberMeChkTest" duration-ms="122" started-at="2018-07-26T15:26:33Z" finished-at="2018-07-26T15:26:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RememberMeChkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.phpdemo.qa.testcases.LoginPageTest@17550481]" name="tearDown" is-config="true" duration-ms="1899" started-at="2018-07-25T18:05:41Z" finished-at="2018-07-25T18:05:43Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.phpdemo.qa.testcases.LoginPageTest@17550481]" name="tearDown" is-config="true" duration-ms="1954" started-at="2018-07-26T15:26:34Z" finished-at="2018-07-26T15:26:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.phpdemo.qa.testcases.LoginPageTest@17550481]" name="Setup" is-config="true" duration-ms="9848" started-at="2018-07-25T18:05:58Z" finished-at="2018-07-25T18:06:08Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.phpdemo.qa.testcases.LoginPageTest@17550481]" name="Setup" is-config="true" duration-ms="10520" started-at="2018-07-26T15:26:51Z" finished-at="2018-07-26T15:27:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="FAIL" signature="LoginPagePanelTest()[pri:2, instance:com.phpdemo.qa.testcases.LoginPageTest@17550481]" name="LoginPagePanelTest" duration-ms="67" started-at="2018-07-25T18:06:08Z" finished-at="2018-07-25T18:06:08Z">
+        <test-method status="FAIL" signature="LoginPagePanelTest()[pri:2, instance:com.phpdemo.qa.testcases.LoginPageTest@17550481]" name="LoginPagePanelTest" duration-ms="108" started-at="2018-07-26T15:27:01Z" finished-at="2018-07-26T15:27:01Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [LOGIN PANEL] but found []]]>
@@ -116,57 +116,57 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginPagePanelTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.phpdemo.qa.testcases.LoginPageTest@17550481]" name="tearDown" is-config="true" duration-ms="1989" started-at="2018-07-25T18:06:08Z" finished-at="2018-07-25T18:06:10Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.phpdemo.qa.testcases.LoginPageTest@17550481]" name="tearDown" is-config="true" duration-ms="2045" started-at="2018-07-26T15:27:02Z" finished-at="2018-07-26T15:27:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.phpdemo.qa.testcases.LoginPageTest@17550481]" name="Setup" is-config="true" duration-ms="9255" started-at="2018-07-25T18:06:26Z" finished-at="2018-07-25T18:06:35Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.phpdemo.qa.testcases.LoginPageTest@17550481]" name="Setup" is-config="true" duration-ms="11476" started-at="2018-07-26T15:27:21Z" finished-at="2018-07-26T15:27:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="LoginTest()[pri:3, instance:com.phpdemo.qa.testcases.LoginPageTest@17550481]" name="LoginTest" duration-ms="399" started-at="2018-07-25T18:06:35Z" finished-at="2018-07-25T18:06:35Z">
+        <test-method status="PASS" signature="LoginTest()[pri:3, instance:com.phpdemo.qa.testcases.LoginPageTest@17550481]" name="LoginTest" duration-ms="553" started-at="2018-07-26T15:27:32Z" finished-at="2018-07-26T15:27:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.phpdemo.qa.testcases.LoginPageTest@17550481]" name="tearDown" is-config="true" duration-ms="1984" started-at="2018-07-25T18:06:35Z" finished-at="2018-07-25T18:06:37Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.phpdemo.qa.testcases.LoginPageTest@17550481]" name="tearDown" is-config="true" duration-ms="2052" started-at="2018-07-26T15:27:33Z" finished-at="2018-07-26T15:27:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.phpdemo.qa.testcases.LoginPageTest@17550481]" name="Setup" is-config="true" duration-ms="10462" started-at="2018-07-25T18:06:37Z" finished-at="2018-07-25T18:06:48Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.phpdemo.qa.testcases.LoginPageTest@17550481]" name="Setup" is-config="true" duration-ms="11534" started-at="2018-07-26T15:27:35Z" finished-at="2018-07-26T15:27:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="LoginPageFrgtPwdTest()[pri:4, instance:com.phpdemo.qa.testcases.LoginPageTest@17550481]" name="LoginPageFrgtPwdTest" duration-ms="45" started-at="2018-07-25T18:06:48Z" finished-at="2018-07-25T18:06:48Z">
+        <test-method status="PASS" signature="LoginPageFrgtPwdTest()[pri:4, instance:com.phpdemo.qa.testcases.LoginPageTest@17550481]" name="LoginPageFrgtPwdTest" duration-ms="108" started-at="2018-07-26T15:27:46Z" finished-at="2018-07-26T15:27:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginPageFrgtPwdTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.phpdemo.qa.testcases.LoginPageTest@17550481]" name="tearDown" is-config="true" duration-ms="2945" started-at="2018-07-25T18:06:48Z" finished-at="2018-07-25T18:06:51Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.phpdemo.qa.testcases.LoginPageTest@17550481]" name="tearDown" is-config="true" duration-ms="1891" started-at="2018-07-26T15:27:46Z" finished-at="2018-07-26T15:27:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.phpdemo.qa.testcases.LoginPageTest -->
       <class name="com.phpdemo.qa.testcases.AddAdminTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.phpdemo.qa.testcases.AddAdminTest@4e04a765]" name="setup" is-config="true" duration-ms="64020" started-at="2018-07-25T18:03:03Z" finished-at="2018-07-25T18:04:07Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.phpdemo.qa.testcases.AddAdminTest@4e04a765]" name="setup" is-config="true" duration-ms="41203" started-at="2018-07-26T15:24:10Z" finished-at="2018-07-26T15:24:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="createAddAdminTest()[pri:0, instance:com.phpdemo.qa.testcases.AddAdminTest@4e04a765]" name="createAddAdminTest" duration-ms="41835" started-at="2018-07-25T18:04:07Z" finished-at="2018-07-25T18:04:49Z">
+        <test-method status="PASS" signature="createAddAdminTest()[pri:0, instance:com.phpdemo.qa.testcases.AddAdminTest@4e04a765]" name="createAddAdminTest" duration-ms="45394" started-at="2018-07-26T15:24:51Z" finished-at="2018-07-26T15:25:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createAddAdminTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.phpdemo.qa.testcases.AddAdminTest@4e04a765]" name="teardown" is-config="true" duration-ms="2372" started-at="2018-07-25T18:04:49Z" finished-at="2018-07-25T18:04:51Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.phpdemo.qa.testcases.AddAdminTest@4e04a765]" name="teardown" is-config="true" duration-ms="4516" started-at="2018-07-26T15:25:37Z" finished-at="2018-07-26T15:25:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.phpdemo.qa.testcases.AddAdminTest@4e04a765]" name="setup" is-config="true" duration-ms="21050" started-at="2018-07-25T18:04:51Z" finished-at="2018-07-25T18:05:12Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.phpdemo.qa.testcases.AddAdminTest@4e04a765]" name="setup" is-config="true" duration-ms="19818" started-at="2018-07-26T15:25:41Z" finished-at="2018-07-26T15:26:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateAddAdminPageTitleTest()[pri:0, instance:com.phpdemo.qa.testcases.AddAdminTest@4e04a765]" name="validateAddAdminPageTitleTest" duration-ms="12" started-at="2018-07-25T18:05:12Z" finished-at="2018-07-25T18:05:12Z">
+        <test-method status="PASS" signature="validateAddAdminPageTitleTest()[pri:0, instance:com.phpdemo.qa.testcases.AddAdminTest@4e04a765]" name="validateAddAdminPageTitleTest" duration-ms="35" started-at="2018-07-26T15:26:01Z" finished-at="2018-07-26T15:26:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateAddAdminPageTitleTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.phpdemo.qa.testcases.AddAdminTest@4e04a765]" name="teardown" is-config="true" duration-ms="1920" started-at="2018-07-25T18:05:12Z" finished-at="2018-07-25T18:05:14Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.phpdemo.qa.testcases.AddAdminTest@4e04a765]" name="teardown" is-config="true" duration-ms="2095" started-at="2018-07-26T15:26:01Z" finished-at="2018-07-26T15:26:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

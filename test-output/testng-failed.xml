@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.phpdemo.qa.testcases.LoginPageTest">
+      <class name="com.phpdemo.qa.testcases.QuickBookingPageTest">
         <methods>
-          <include name="tearDown"/>
-          <include name="LoginPagePanelTest"/>
-          <include name="Setup"/>
+          <include name="teardown"/>
+          <include name="setUp"/>
+          <include name="setCheckinDateTest"/>
         </methods>
-      </class> <!-- com.phpdemo.qa.testcases.LoginPageTest -->
+      </class> <!-- com.phpdemo.qa.testcases.QuickBookingPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
