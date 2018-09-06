@@ -1,0 +1,20 @@
+<?xml version ="1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "TestSuite" thread-count="2" parallel="methods">
+
+<listeners>
+	<listener class-name="com.phpdemo.qa.ExtentReportListener.ExtentReportNG"/>
+</listeners>
+	<test name ="DemoSitePHPTest">
+		<classes> 
+			<class name="com.phpdemo.qa.testcases.LoginPageTest">
+			</class>
+			<class name="com.phpdemo.qa.testcases.HomePageTest">
+			</class>
+			<class name="com.phpdemo.qa.testcases.AddAdminTest">
+			</class>
+		</classes>
+	
+	
+	</test>
+</suite>

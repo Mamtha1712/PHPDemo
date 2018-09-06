@@ -32,7 +32,7 @@ public class QuickBookingPageTest extends TestBase {
 	
 	@Test
 	public void setCheckinDateTest() throws Exception {
-		Thread.sleep(3000);
+		Thread.sleep(2000);
 		homepage.clickOnQuickBookNvalidateHeader();
 		Thread.sleep(2000);
 		homepage.enterQuickBookingDetails("Yes", "Flights");
